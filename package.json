@@ -1,0 +1,23 @@
+{
+  "name": "Smallector",
+  "version": "1.0.0",
+  "description": "Shorten CSS class names to reduce the size of CSS files.",
+  "main": "smallector.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "CSS",
+    "compress"
+  ],
+  "author": "Isaac Weaver",
+  "license": "GPL",
+  "dependencies": {
+    "css": "^2.2.0",
+    "mocha": "^2.2.4"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4",
+    "should": "^5.2.0"
+  }
+}

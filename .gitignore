@@ -1,0 +1,16 @@
+# These are added with `npm install` so don't put them in the repo.
+node_modules
+
+# Exclude all minifyed files
+*.min.js
+*.min.css
+
+*.json
+!package.json
+
+*.log
+
+# Ignore eclipse IDE files.
+.buildpath
+.project
+.settings

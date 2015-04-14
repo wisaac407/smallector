@@ -1,0 +1,23 @@
+/*
+ * commands: split
+ */
+
+.a {
+  background-color: #FF0000;
+}
+
+.a-e {
+  background-color: #FF0000;
+}
+
+.a-d {
+  background-color: #FF0000;
+}
+
+.a-c {
+  background-color: #FF0000;
+}
+
+.a-b {
+  background-color: #FF0000;
+}

@@ -1,0 +1,15 @@
+/*
+ * commands: split
+ */
+
+.d-a {
+  color: red;
+}
+
+.c-a {
+  color: green;
+}
+
+.b-a {
+  color: blue;
+}
