@@ -1,7 +1,7 @@
 {
   "name": "Smallector",
   "version": "1.0.0",
-  "description": "Shorten CSS class names to reduce the size of CSS files.",
+  "description": "A CSS class renamer used to shorten css classes and reduce the file size.",
   "main": "smallector.js",
   "scripts": {
     "test": "mocha"
