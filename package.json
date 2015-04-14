@@ -13,8 +13,7 @@
   "author": "Isaac Weaver",
   "license": "GPL",
   "dependencies": {
-    "css": "^2.2.0",
-    "mocha": "^2.2.4"
+    "css": "^2.2.0"
   },
   "devDependencies": {
     "mocha": "^2.2.4",
