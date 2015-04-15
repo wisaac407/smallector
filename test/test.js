@@ -18,12 +18,13 @@ describe('Smallector', function() {
 		s.compiled.should.equal( '.b{color:red;}.a{color:green;}' );
 	});
 	it('Should properly compile all stylesheets', function() {
-		fs.readdirSync('stylesheets').forEach(function( file ) {
+		var stylesheets = __dirname + '/stylesheets/';
+		fs.readdirSync( stylesheets ).forEach(function( file ) {
 			var content, expected, s, options, match;
 			
 			if ( file.match( /^.+\.css$/ ) ) {
-				content = fs.readFileSync( 'stylesheets/' + file, 'utf8' );
-				expected = fs.readFileSync( 'stylesheets/' + file + '.expected', 'utf8' );
+				content = fs.readFileSync( stylesheets + file, 'utf8' );
+				expected = fs.readFileSync( stylesheets + file + '.expected', 'utf8' );
 				
 				// Default options
 				options = {
