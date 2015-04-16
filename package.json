@@ -1,5 +1,5 @@
 {
-  "name": "Smallector",
+  "name": "smallector",
   "version": "1.0.0",
   "description": "A CSS class renamer used to shorten css classes and reduce the file size.",
   "main": "index.js",
