@@ -14,7 +14,7 @@
     "CSS",
     "compress"
   ],
-  "author": "Isaac Weaver",
+  "author": "Isaac Weaver<wisaac407@gmail.com>",
   "license": "GPL",
   "dependencies": {
     "css": "^2.2.0"
