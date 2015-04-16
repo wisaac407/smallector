@@ -6,8 +6,8 @@ css files and reducing the overall size of your site.
 ## Usage
 Smallector provides the `Smallector` class which can be used as fallows:
 ```javascript
-var Smallector = require( 'Smallector', { compress: true } ),
-    s = new Smallector( '.red-text { color: red; }' );
+var Smallector = require( 'Smallector' ),
+    s = new Smallector( '.red-text { color: red; }', { compress: true } );
 console.log( s.compiled ); // Will output `.a{color:red;}`
 ```
 There are two ways to shorten classes:
