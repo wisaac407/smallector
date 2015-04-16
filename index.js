@@ -21,7 +21,12 @@ module.exports = (function() {
 		for ( opt in options ) {
 			this.options[ opt ] = options[ opt ];
 		}
+		// Reset to default state.
 		this.reset();
+		// If we where passed a map then use it.
+		if ( this.options.map ) {
+		    this.map = this.options.map;
+		}
 		
 		if ( str !== false ) {
 			// Parse the string (if we have one).
