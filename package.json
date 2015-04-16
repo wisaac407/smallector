@@ -14,7 +14,7 @@
     "CSS",
     "compress"
   ],
-  "author": "Isaac Weaver<wisaac407@gmail.com>",
+  "author": "Isaac Weaver <wisaac407@gmail.com>",
   "license": "GPL",
   "dependencies": {
     "css": "^2.2.0"
@@ -22,5 +22,12 @@
   "devDependencies": {
     "mocha": "^2.2.4",
     "should": "^5.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/wisaac407/Smallector/issues"
+  },
+  "homepage": "https://github.com/wisaac407/Smallector",
+  "directories": {
+    "test": "test"
   }
 }
