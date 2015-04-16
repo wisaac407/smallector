@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A CSS class renamer used to shorten css classes and reduce the file size.",
   "main": "smallector.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wisaac407/Smallector.git"
+  },
   "scripts": {
     "test": "mocha"
   },
