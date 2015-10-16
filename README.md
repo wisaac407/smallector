@@ -1,4 +1,4 @@
-# Smallector [![Build Status](https://travis-ci.org/wisaac407/smallector.svg?branch=master)](https://travis-ci.org/wisaac407/smallector)
+# Smallector [![Build Status](https://travis-ci.org/wisaac407/Smallector.svg?branch=master)](https://travis-ci.org/wisaac407/Smallector)
 
 Smallector is a [Nodejs](http://nodejs.org) module designed to shorten css class names. This is useful for shrinking
 css files and reducing the overall size of your site.
