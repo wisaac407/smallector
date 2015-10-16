@@ -16,7 +16,7 @@ There are two ways to shorten classes:
 
 The example above uses compleate replacement, let's have a look at segment replacment:
 ```javascript
-var Smallector = require( 'Smallector' ),
+var Smallector = require( 'smallector' ),
     s = new Smallector( '.red-text { color: red; }', { compress: true, split: true} );
 console.log( s.compiled ); // Will output `.a-b{color:red;}`
 ```
